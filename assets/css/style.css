@@ -1,0 +1,136 @@
+header {
+    height: 70px;
+    background-color: #ffffff;
+    border-bottom: solid 2px #cccccc;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.name {
+    background-color: #4AAAA5;
+    padding: 20px 30px 20px 30px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    float: left;
+    margin-left: 200px;
+}
+
+.menu {
+    float: right;
+    padding: 15px;
+    margin-right: 200px;
+    padding-top: 25px;
+}
+
+.menu a {
+    padding: 2px 15px 2px 15px;
+    border-left: solid 1px #cccccc;
+}
+
+body {
+    background-image: url(../images/white-waves.png);
+}
+
+.main {
+    border: solid 1px#cccccc;
+    width: 960px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    padding: 30px;
+}
+
+.main h2 {
+    color: #4AAAA5;
+    border-bottom: solid 2px #cccccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+#portPic {
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.main p {
+    line-height: 1.75em;
+}
+
+:any-link {
+    text-decoration: none;
+    color: #777777;
+}
+
+.footer {
+    height: 70px;
+    background-color: #666666;
+    border-top: solid 5px #4AAAA5;
+    text-align: center;
+    font-size: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    color: white;
+    padding-top: 25px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4AAAA5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(91, 212, 206);
+  }
+
+  .gallery {
+    width: 480px;
+    height: 700px;
+  }
+
+  .picture {
+    position: relative;
+    height: auto;
+    margin: 0 40px 40px 0;
+    float: left;
+  }
+
+  .desc {
+    width: 200px;
+    text-align: center;
+    background-color: #4AAAA5;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+  }
